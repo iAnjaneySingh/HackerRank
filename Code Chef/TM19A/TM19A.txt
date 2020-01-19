@@ -1,0 +1,38 @@
+TM19A
+
+All submissions for this problem are available.During the DJ party, gentleman and Ladies, formed a queue of n people in the bar. Initially the all stood in the order they entered the bar. However, after a while the gentleman started feeling awkward for standing in front of the ladies in the queue and they started letting the ladies move forward each second.
+
+Lets describe the process more precisely. Let's say that the positions in the queue are sequentially numbered by integers from 1 to n, at that the person in the position number 1 is served first. Then, if at time x a gentleman stands on the i-th position and a lady stands on the (i + 1)-th position, then at time x + 1 the i-th position will have a lady and the (i + 1)-th position will have a gentleman. The time is given in seconds.
+
+You've got the initial position of all people, at the initial moment of time. Determine the way the queue is going to look after t seconds.
+
+Input
+
+First line contains integer T , number of testcase
+
+The second line contains two integers a and b (1 ≤ a, b ≤ 50), which represent the number of party people in the queue and the time after which the queue will transform into the arrangement you need to find.
+
+The next line contains string s, which represents all party people initial arrangement. If the i-th position in the queue contains a gentleman, then the i-th character of string s equals "G", otherwise the i-th character equals "L".
+
+Output
+
+Print 2 line for every testcase
+
+First line length of string S for given testcase
+
+Second line string S, for every testcase which describes the arrangement after t seconds. If the i-th position has a gentleman after the needed time, then the i-th character S must equal "G", otherwise it must equal "L".
+
+Example:
+input
+2
+5 2
+GLLGL
+4 1
+LLLG
+output
+
+5
+LLGLG
+4
+LLLG
+//problem set by devv
